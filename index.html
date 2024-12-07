@@ -2,7 +2,7 @@
 <html lang="en-CA">
   <head>
     <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
-    <title>Andrew Ellyatt's Portfolio Landing Page</title>
+    <title>Andrew Ellyatt's Portfolio About Me Page</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
@@ -46,8 +46,11 @@
 
       .contentsofsite {
         max-width: 1440px;
+        min-width: 1440px;
         margin: auto;
         padding: 0px 0px;
+        overflow: hidden;
+        max-height: 1024px;
       }
 
       .navbar {
@@ -55,7 +58,7 @@
         overflow: hidden;
         background: white;
         border-bottom: 5px solid #0077FF;
-padding: 8px 0px;
+        padding: 8px 0px;
         position: sticky;
         top: 0%;
       }
@@ -99,6 +102,7 @@ padding: 8px 0px;
         margin-left: 64px;
         overflow: hidden;
 
+
       }
 
       .column1 a {
@@ -111,14 +115,17 @@ padding: 8px 0px;
         padding: 8px 0px;
         border-radius: 30px;
         display: inline-block;
+        text-align: center;
       }
 
       .column2 {
         float: right;
         width: 535px;
         height: 938px;
-        background: grey;
+        background: white;
         display: inline-block;
+        margin-right: 64px;
+         overflow: hidden;
       }
 
       .dot {
@@ -142,12 +149,26 @@ padding: 8px 0px;
         <a href="#">Projects</a>
         <a href="#">About Me</a>
       </div>
-<div class="column1" style="background: black; color: white; padding: 0px;">
-  <h1> About me</h1>
+      <div class="column1" style="padding-top: 64px">
+        <h1 style="margin-bottom: 16px;"> About me</h1>
+        <p>
+          Hi, my name is Andrew Ellyatt, I am a 2nd year Global business and Digital arts student at the University of Waterloo with an interest in the world of design! <br> <br>
+          What I am currently doing is studying the different aspects of design and how I can personally get involved using my design knowledge to create new and innovative things! One of my most important skills is being able to work in a team and having an understanding of the process of managing a project to create something truly amazing! This is something I have learned through collaborating in various past university projects and taking notes afterwards, learning from those experiences each time to improve further. 
+        </p>
+
+        <h3 style="margin-bottom: 64px;">Look forward to working with you!</h3>
+        <a href="#" style="margin-bottom: 16px; width: 535px;"> View My Projects Here!</a> <br>
+
+        <a href="#" style="background: white; color: black; border: 3px solid black; width: 313px; margin-left: 111px;">Return Home</a>
       </div>
-      
-      
-      
+
+      <div class="column2">
+       <span class="dot" style="margin-top: -436"></span>  
+         <span class="dot" style="margin-top: 32px;"></span> 
+        <span class="dot" style="margin-top: 32px;"></span> 
+      </div>
+
+
     </div>
   </body>
 </html>
